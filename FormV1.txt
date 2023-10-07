@@ -1,0 +1,12 @@
+<form method="POST">
+    <label for="euro">Euro:</label>
+    <input type="number" step="any"  maxlength="5" name="euro" id="euro" required>
+    <input type="submit" name="euro_to_franc" value="Convertir en FrancsRDC">
+</form>
+
+ 
+ <form method="POST">
+    <label for="franc">FrancsRDC:</label>
+    <input type="number" step="any"  maxlength="5" name="franc" id="franc" required>
+    <input type="submit" step="0.01" maxlength="5" name="franc_to_euro" value="Convertir en Euro">
+</form>
